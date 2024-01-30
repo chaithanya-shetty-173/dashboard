@@ -1,0 +1,41 @@
+.about-route,
+.about-route-light {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.about-route-light {
+  background-color: white;
+  color: black;
+}
+
+.about-route-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.about-heading,
+.vaccine-ready-heading {
+  font-weight: 500;
+  font-size: 30px;
+  margin: 0;
+}
+
+.vaccine-ready-heading {
+  font-size: 20px;
+}
+
+.update-paragraph {
+  color: grey;
+}
+
+.faqs-unordered-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}

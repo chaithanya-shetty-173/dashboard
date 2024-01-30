@@ -1,0 +1,16 @@
+.faq-list-item {
+  margin-bottom: 20px;
+}
+.question {
+  color: grey;
+  font-weight: 400;
+  margin: 0;
+  font-size: 14px;
+}
+
+.answer {
+  color: rgba(0, 150, 255, 1);
+  font-weight: 400;
+  margin-top: 10px;
+  font-size: 13px;
+}

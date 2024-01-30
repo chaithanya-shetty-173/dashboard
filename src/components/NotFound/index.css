@@ -1,0 +1,38 @@
+.not-found-route {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  color: grey;
+  font-family: roboto;
+}
+
+.not-found-route-light {
+  background-color: white;
+}
+
+.not-found-image {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.not-found-heading {
+  margin: 20px 0 10px 0;
+}
+
+.not-found-paragraph {
+  margin: 3px;
+}
+
+.button {
+  padding: 10px 20px;
+  color: white;
+  border-radius: 6px;
+  border: 0;
+  background-color: rgba(20, 100, 240, 1);
+  font-weight: 400;
+  margin: 20px;
+}

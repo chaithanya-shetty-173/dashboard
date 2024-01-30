@@ -1,0 +1,22 @@
+.district-count-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(100, 100, 100, 0.4);
+  border-radius: 15px;
+  width: 20%;
+  @media (max-width: 768px) {
+    width: 40%;
+  }
+}
+
+.district-count-item p {
+  margin: 4px;
+}
+
+.district-count-item p:nth-child(1) {
+  margin: 4px;
+  font-weight: 600;
+  color: aqua;
+}

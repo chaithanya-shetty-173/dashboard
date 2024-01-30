@@ -1,0 +1,227 @@
+.home-container {
+  background-color: #161625;
+  /* height: 100vh; */
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  margin: 0px;
+  color: #ffffff;
+}
+
+.search-box-container {
+  background-color: #2f2f43;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+}
+
+.search-icon {
+  color: #a9afba;
+  height: 13px;
+  width: 13px;
+  margin-right: 10px;
+}
+
+.search-input-container {
+  background: transparent;
+  border: none;
+  color: #a9afba;
+  font-size: 12px;
+  outline: none;
+  width: 100%;
+}
+
+.search-results-unordered-list {
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-box-container {
+    margin-top: 20px;
+    padding: 20px;
+
+    height: 50px;
+    width: 600px;
+  }
+
+  .search-icon {
+    height: 15px;
+    width: 15px;
+  }
+
+  .search-input-container {
+    font-size: 14px;
+    width: 100%;
+    height: 30px;
+  }
+}
+
+.countrywide-cases-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0px;
+  /* justify-content: space-between; */
+}
+
+.select-card {
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid #ffffff; */
+  height: 120px;
+  width: 120px;
+  margin: 10px;
+}
+
+.confirmed-card {
+  color: #e40938;
+}
+.active-card {
+  color: #0467d4;
+}
+.recovered-card {
+  color: #237d3b;
+}
+.deceased-card {
+  color: #535a64;
+}
+
+.cases-text {
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.cases-icon {
+  height: 24px;
+  width: 24px;
+}
+.cases-count {
+  font-size: 16px;
+}
+
+.statewise-covid-data-table {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1e30;
+  padding-left: 0px;
+  border-radius: 5px;
+  border: 1px solid #a9afba;
+  list-style: none;
+  overflow: auto;
+  max-width: 400px;
+}
+
+.statewise-covid-data-unordered-list {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .statewise-covid-data-table {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e1e30;
+    padding-left: 0px;
+    border-radius: 5px;
+    border: 1px solid #a9afba;
+    list-style: none;
+    max-width: 100%;
+    /* overflow: auto; */
+  }
+}
+
+.heading-row {
+  display: flex;
+  border-bottom: 1px solid #a9afba;
+  padding: 10px;
+}
+
+.states-heading-outer-container {
+  display: flex;
+  width: 150px;
+}
+
+.heading-container {
+  width: 100px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 11px;
+  margin: 3px;
+  text-align: center;
+}
+
+.states-heading-container {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 11px;
+  margin: 3px;
+}
+
+.asc-dec-btn-container {
+  display: flex;
+}
+
+.asc-des-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.asc-des-icon {
+  height: 12px;
+  width: 12px;
+}
+
+.content-row {
+  display: flex;
+  padding: 10px;
+}
+
+.name-content-container {
+  width: 150px;
+  color: #e1e4e9;
+  font-family: 'Roboto';
+  font-size: 9px;
+  margin: 3px;
+  text-align: left;
+}
+
+.content-container {
+  width: 100px;
+
+  font-family: 'Roboto';
+  font-size: 9px;
+  margin: 3px;
+  text-align: center;
+}
+
+.confirmed-text {
+  color: #e40938;
+}
+
+.active-text {
+  color: #0467d4;
+}
+
+.recovered-text {
+  color: #237d3b;
+}
+
+.deceased-text {
+  color: #535a64;
+}
+
+.population-text {
+  color: #768195;
+}

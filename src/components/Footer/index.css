@@ -1,0 +1,36 @@
+.footer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  background-color: black;
+  width: 100%; /* Ensure the footer takes up the full width */
+  box-sizing: border-box;
+}
+
+.footer-light {
+  color: black;
+  background-color: white;
+}
+
+.footer-logo-title {
+  font-weight: 500;
+  font-size: 30px;
+  font-family: bree serif;
+  margin: 4px;
+  text-align: center;
+}
+
+.footer-logo-title span {
+  color: rgba(0, 80, 240, 1);
+}
+
+.footer-icon {
+  margin: 20px;
+}
+.footer-link {
+  text-decoration: none;
+  color: white;
+}

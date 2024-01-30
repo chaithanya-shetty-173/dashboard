@@ -1,0 +1,130 @@
+.state-route,
+.state-route-light {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+.state-route-light {
+  background-color: white;
+}
+
+.state-route-container {
+  flex-grow: 1;
+  color: white;
+  padding: 20px 60px;
+  align-self: center;
+  width: 90%;
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
+}
+
+.data-update-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.state-name-heading {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(0, 150, 255);
+  background: rgba(0, 150, 255, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.state-tested-data p {
+  color: grey;
+  margin: 4px;
+}
+
+.date-para {
+  margin: 0;
+  font-size: 13px;
+  color: rgba(200, 200, 200, 1);
+}
+
+.state-covid-total-detail-box {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.state-covid-details-box-1,
+.state-covid-details-box-2,
+.state-covid-details-box-3,
+.state-covid-details-box-4 {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  margin: 0 0px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  @media (max-width: 768px) {
+    margin-bottom: 30px;
+  }
+  background-color: transparent;
+}
+
+.state-covid-details-box-1 {
+  color: red;
+}
+
+.state-covid-details-box-2 {
+  color: rgba(0, 100, 250, 1);
+}
+.state-covid-details-box-3 {
+  color: green;
+}
+.state-covid-details-box-4 {
+  color: grey;
+}
+
+.district-with-count-list-container {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.district-count-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(100, 100, 100, 0.4);
+  border-radius: 15px;
+  width: 20%;
+  @media (max-width: 768px) {
+    width: 40%;
+  }
+}
+
+.district-count-item p {
+  margin: 4px;
+}
+
+.district-count-item p:nth-child(1) {
+  margin: 4px;
+  font-weight: 600;
+  color: aqua;
+}
+
+.link-button {
+  background-color: transparent;
+  color: inherit;
+  border: 0;
+  font-size: inherit;
+}

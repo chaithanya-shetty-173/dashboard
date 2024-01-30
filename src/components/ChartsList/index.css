@@ -1,0 +1,57 @@
+.charts-container-list {
+  width: 100%;
+}
+
+.bar-chart-container {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px;
+
+  overflow-x: auto;
+  overflow-y: unset;
+}
+
+.bar-chart {
+}
+
+.bar {
+  width: 100px;
+}
+
+.line-chart-container-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+  border: 0px solid red;
+  align-items: center;
+}
+
+.line-chart-container {
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  border: 0px solid red;
+  overflow-x: auto;
+  overflow-y: unset;
+  box-shadow: 0px 4px 16px 0px #7f7d7d;
+}
+
+.spread-trends-heading {
+  font-weight: 500;
+  font-family: bree serif;
+  align-self: center;
+  text-align: center;
+  margin-top: 50px;
+  background-color: aquamarine;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
